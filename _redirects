@@ -1,3 +1,9 @@
-# Cloudflare Pages redirects
-# www → apex (handled in Cloudflare DNS, but belt-and-suspenders)
-https://www.bradentonbushhogging.com/* https://bradentonbushhogging.com/:splat 301
+# Cloudflare Pages redirects.
+# HTTPS and www -> apex are handled in the Cloudflare dashboard, not here.
+
+# Old PHP endpoints from the previous host — anything still linking to them
+# lands on the form instead of a 404.
+/form/submit.php   /#quote   301
+/form/*            /#quote   301
+/diagnose.php      /         301
+/version.txt       /         301
