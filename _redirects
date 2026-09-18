@@ -1,0 +1,3 @@
+# Cloudflare Pages redirects
+# www → apex (handled in Cloudflare DNS, but belt-and-suspenders)
+https://www.bradentonbushhogging.com/* https://bradentonbushhogging.com/:splat 301
