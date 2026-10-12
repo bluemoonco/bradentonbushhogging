@@ -169,6 +169,12 @@
               event_category: 'form',
               event_label: 'bradenton_quote_form'
             });
+            /* Google Ads conversion: "Form Lead Bradentonbushhogging.com" */
+            window.gtag('event', 'conversion', {
+              send_to: 'AW-980003516/FxzHCKmiw5odELzVptMD',
+              value: 1.0,
+              currency: 'USD'
+            });
           }
         } else {
           var detail = '';
